@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fich_Text</string>
+    <string name="nom">Nom</string>
+    <string name="prénom">Prénom</string>
+    <string name="email">Email</string>
+    <string name="téléphone">Téléphone</string>
+    <string name="sauver">Sauver</string>
+    <string name="charger">Charger</string>
+    <string name="sauver_ext">Sauver Ext</string>
+    <string name="charger_ext">Charger Ext</string>
+    <string name="sauver_json">Sauver json</string>
+    <string name="charger_json">Charger json</string>
+</resources>

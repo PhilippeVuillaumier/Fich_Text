@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:text="@string/nom" />
+
+    <EditText
+        android:id="@+id/etNom"
+        style="@style/saisie"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:text="@string/prénom" />
+
+    <EditText
+        android:id="@+id/etPrenom"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_columnSpan="2"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:text="@string/téléphone" />
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:onClick="sauver"
+        android:text="@string/sauver" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:onClick="Charger"
+        android:text="@string/charger" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:onClick="Sauver_Ext"
+        android:text="@string/sauver_ext" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:onClick="Charger_ext"
+        android:text="@string/charger_ext" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:onClick="Sauver_json"
+        android:text="@string/sauver_json" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:onClick="Charger_json"
+        android:text="@string/charger_json" />
+
+
+</GridLayout>
